@@ -1,0 +1,23 @@
+{
+    "type": "modal",
+    "callback_id": "modal-id",
+    "title": {"type": "plain_text", "text": "タスク登録"},
+    "submit": {"type": "plain_text", "text": "送信"},
+    "close": {"type": "plain_text", "text": "キャンセル"},
+    "blocks": [
+        {
+            "type": "input",
+            "block_id": "input-task",
+            "element": {
+                "type": "plain_text_input",
+                "action_id": "input",
+                "multiline": true,
+                "placeholder": {
+                    "type": "plain_text",
+                    "text": "タスクの詳細・期限などを書いてください"
+                }
+            },
+            "label": {"type": "plain_text", "text": "タスク"}
+        }
+    ]
+}

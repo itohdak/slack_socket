@@ -1,0 +1,32 @@
+{
+	"title": {
+		"type": "plain_text",
+		"text": "Modify hearning members"
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Submit"
+	},
+	"blocks": [
+		{
+			"type": "input",
+			"element": {
+				"type": "multi_users_select",
+				"placeholder": {
+					"type": "plain_text",
+					"text": "Select members",
+					"emoji": true
+				},
+				"action_id": "multi_users_select-action",
+				"initial_users": []
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Members",
+				"emoji": true
+			}
+		}
+	],
+	"type": "modal",
+	"callback_id": "modify_callback"
+}
